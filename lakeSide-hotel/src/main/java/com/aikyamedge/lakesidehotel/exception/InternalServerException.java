@@ -1,2 +1,7 @@
-package com.aikyamedge.lakesidehotel.exception;public class InternalServerException {
+package com.aikyamedge.lakesidehotel.exception;
+
+public class InternalServerException extends RuntimeException {
+    public InternalServerException(String message) {
+        super(message);
+    }
 }
